@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'caveat regular';
-    src: url('/webclocks/fonts/caveat-regular.woff') format('woff');
+    src: url('/webclock/fonts/caveat-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal; }
 @font-face {
     font-family: 'caveat bold';
-    src: url('/webclocks/fonts/caveat-bold.woff') format('woff');
+    src: url('/webclock/fonts/caveat-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal; }
 @font-face {
     font-family: 'indie flower';
-    src: url('/webclocks/fonts/indie-flower.woff') format('woff');
+    src: url('/webclock/fonts/indie-flower.woff') format('woff');
     font-weight: normal;
     font-style: normal; }
 @font-face {
     font-family: 'pecita';
-    src: url('/webclocks/fonts/pecita.woff') format('woff');
+    src: url('/webclock/fonts/pecita.woff') format('woff');
     font-weight: normal;
     font-style: normal; }
 
