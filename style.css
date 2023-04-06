@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'caveat regular';
+    src: url('/fonts/caveat-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; }
+@font-face {
+    font-family: 'caveat bold';
+    src: url('/fonts/caveat-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal; }
+@font-face {
+    font-family: 'indie flower';
+    src: url('/fonts/indie-flower.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; }
+@font-face {
+    font-family: 'pecita';
+    src: url('/fonts/pecita.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; }
+
+:root{
+    --RED: #F19A9F;
+    --ORANGE: #FFC29F;
+    --YELLOW: #FFFAAE;
+    --GREEN: #CDECAD;
+    --BLUE: #A0CDED;
+    --PURPLE: #AF8FC1;
+    --WHITE: aliceblue;
+    --BLACK: #131213;
+    --DARKRED: red;
+    --DARKORANGE: orange;
+    --DARKYELLOW: yellow;
+    --DARKGREEN: green;
+    --DARKBLUE: blue;
+    --DARKPURPLE: purple;
+    --DARKWHITE: white;
+    --DARKBLACK: black;
+    }
+
+*{
+    padding: 0.1em;
+    border: none;
+    margin: 0.1em;
+}
+
+li{
+    margin-left: 1em;
+}
+
+button{
+    width: fit-content;
+}
+
+.grid-container-two{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.grid-container-four{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+.grid-container-five{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}
+.grid-container-eight{
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+}
+
+
+#project-field{
+    background-color: aliceblue;
+}
+
+.color-button{
+    width: 1em;
+    height: 1em;
+}

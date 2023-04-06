@@ -1,0 +1,30 @@
+[X] save color settings to local storage
+    [X] in changeColor()
+    [X] new setColors() fxn in onLoad()
+
+[X] elements are buttons with different fonts (4)
+    >in createColorSettings()
+
+[X] add headers (h3) to elements
+    >in createColorSettings()
+    >& in createColor() switches
+
+[X] about page
+    >new html
+
+[X] fix clock-in/out spacing
+    >html 
+
+[X] condense settings
+    [X]load out into same div as about/settings
+    [X]choose b/w font & color 
+    [X]createColorSettings()
+
+[>] condense timelog
+    >addToHTML()
+
+[X] inspirational/uplifting quote
+    >in an array, click through or random int
+
+[ ] draw settings wheel
+    >ipad

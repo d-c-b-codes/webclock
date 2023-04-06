@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dcb webclock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top-bar" style="text-align: right">
+        <a href="/about.html">about</a>
+        <select id="settings-button">
+            <option value="settings">settings</option>
+            <option value="fonts">fonts</option>
+            <option value="colors">colors</option>
+        </select>
+        <div id="settings">
+            <!--js writes color buttons into here-->
+        </div>
+    </div>
+    <div style="text-align: center"><h3>welcome to web clock</h3></div>
+    <div id="quote" style="text-align: center"><p><!-- js writes quote here --></p></div>
+    <div><h3 id="date"><!-- js writes date here --></h3></div>
+    <br>
+    <form id="input-form">
+        <input type="text" id="project-field" name="project" class="grid-item" placeholder="project name here">
+        <button id="clockin">clock in</button>
+        <button id="clockout">clock out</button>
+    </form>
+    <br>
+    <div class="grid-container-five" id="time-log">
+        <h3 class="grid-item">project</h3>
+        <h3 class="grid-item">clock in</h3>
+        <h3 class="grid-item">clock out</h3>
+        <h3 class="grid-item">time</h3>
+        <h3 class="grid-item"></h3>
+        <!-- js writes logged times into here -->
+    </div>
+    <br>
+    <div class="grid-container-four" id="sum-table">
+        <h3 class="grid-item">total time worked</h3>
+        <!-- js writes total time here -->
+    </div>
+    <br>
+    <div class="grid-container-two" id="project-report">
+        <h3 class="grid-item">projects</h3>
+        <h3 class="grid-item">time spent</h3>
+        <!-- js writes project sums here -->
+    </div>
+    <br>
+    <button id="clear-button" class="button">clear time log</button>
+    <div><footer>&copy dcb 2023</footer></div>
+    <script src="script.js"></script>
+</body>
+</html>
