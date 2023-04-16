@@ -35,8 +35,6 @@ onLoad();
 function onLoad() {
     createTimeString();
     createQuote();
-    setColors();
-    setFonts();
     let projects = unlockProjects();
     if (projects.length == 0) {
         // pass
@@ -45,6 +43,8 @@ function onLoad() {
         showGrandTotal(projects);
         showTotals(projects);
     };
+    setColors();
+    setFonts();
 };
 
 function createQuote(){
